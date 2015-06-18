@@ -1,5 +1,12 @@
-## Put comments here that give an overall description of what your
-## functions do
+## makeCacheMatrix caches an input (invertible) matrix x as well as
+## its inverse i. This function contains the functions set (which will
+## change the value of the matrix), get (which will return the matrix),
+## setinverse (which will change the value of the matrix's inverse), and
+## getinverse (which will return the value currently stored as i).
+##
+## cacheSolve will return the current value of i if one exists. If not,
+## it will solve the input (invertible) matrix x and cache the
+## calculated inverse.
 
 ## This function takes a matrix x as input and caches its inverse
 
